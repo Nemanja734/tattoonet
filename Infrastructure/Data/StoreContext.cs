@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data;
 
+// Create Db Set of Store Context
 public class StoreContext(DbContextOptions options) : DbContext(options)
 {
     public DbSet<Product> Products { get; set; }
