@@ -9,3 +9,4 @@
 /home/nemanja-tomic/Desktop/tattoonet/Core/obj/Debug/net8.0/refint/Core.dll
 /home/nemanja-tomic/Desktop/tattoonet/Core/obj/Debug/net8.0/Core.pdb
 /home/nemanja-tomic/Desktop/tattoonet/Core/obj/Debug/net8.0/ref/Core.dll
+/home/nemanja-tomic/Desktop/tattoonet/Core/obj/Debug/net8.0/Core.sourcelink.json

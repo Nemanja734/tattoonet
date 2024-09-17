@@ -13,3 +13,4 @@
 /home/nemanja-tomic/Desktop/tattoonet/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
 /home/nemanja-tomic/Desktop/tattoonet/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
 /home/nemanja-tomic/Desktop/tattoonet/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll
+/home/nemanja-tomic/Desktop/tattoonet/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json
