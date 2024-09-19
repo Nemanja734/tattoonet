@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fL9UbUt4/W/oQ4C8XmzwkQtRqAXuo0YxGXAaqwV1iMS4+YTgWD6j39iHdaJ3rTPM9GFQB2EE/2vwFGarABodlw==",
+  "dgSpecHash": "Y4tnw9POBFySR+FFoPXrAJ6B5OEdg9nEaQPvZw5BFOZdlxT5FonDIyevtNvBDTO7/s03QguCQ7t+HeGqRXLuuQ==",
   "success": true,
   "projectFilePath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,7 @@
     "/home/nemanjatomic/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/mysqlconnector/2.3.7/mysqlconnector.2.3.7.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/system.configuration.configurationmanager/6.0.1/system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",

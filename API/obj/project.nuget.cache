@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L6p3JMuN+r67kN7803t76vTHlJtU1ToJY1XT+VlpMwGP0gxAuNLeuDLrup0Laf7iDbp642500xE6oI4oFCsSiQ==",
+  "dgSpecHash": "K1sFEyI3XOMBl5Py9UbVHP/qScZcBVvNmAZ1vsU4u2wNPOz64jU/zya3KmwsJRhgB0l8H0QP7kbHdoFIKr2UUQ==",
   "success": true,
   "projectFilePath": "/home/nemanjatomic/Desktop/workspace/tattoonet/API/API.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "/home/nemanjatomic/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/mysqlconnector/2.3.7/mysqlconnector.2.3.7.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/system.composition/6.0.0/system.composition.6.0.0.nupkg.sha512",
