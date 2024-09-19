@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "abrJKwmsKeEHSAHfuRy8xvWJgfn0VXJ33A+7Py48zrykLebtV4ZdGL54OskWcj4QAJpDcg1MffIRc9o0sGncVQ==",
+  "dgSpecHash": "rg6cY69La3NFst1fnjGiB1SEa74d+pD1gT7sb3iZiUT8E1qNoQJgEhY5/HTbzcZOkFRpNT6kK3qxDJ9dLXGomg==",
   "success": true,
-  "projectFilePath": "/home/nemanja-tomic/Desktop/tattoonet/Core/Core.csproj",
+  "projectFilePath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Core/Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
