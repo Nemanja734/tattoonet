@@ -2764,19 +2764,19 @@
     ]
   },
   "packageFolders": {
-    "/home/nemanja-tomic/.nuget/packages/": {}
+    "/home/nemanjatomic/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nemanja-tomic/Desktop/tattoonet/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "/home/nemanjatomic/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/home/nemanja-tomic/Desktop/tattoonet/Infrastructure/Infrastructure.csproj",
-      "packagesPath": "/home/nemanja-tomic/.nuget/packages/",
-      "outputPath": "/home/nemanja-tomic/Desktop/tattoonet/Infrastructure/obj/",
+      "projectPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj",
+      "packagesPath": "/home/nemanjatomic/.nuget/packages/",
+      "outputPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/nemanja-tomic/.nuget/NuGet/NuGet.Config"
+        "/home/nemanjatomic/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2788,8 +2788,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/nemanja-tomic/Desktop/tattoonet/Core/Core.csproj": {
-              "projectPath": "/home/nemanja-tomic/Desktop/tattoonet/Core/Core.csproj"
+            "/home/nemanjatomic/Desktop/workspace/tattoonet/Core/Core.csproj": {
+              "projectPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Core/Core.csproj"
             }
           }
         }
