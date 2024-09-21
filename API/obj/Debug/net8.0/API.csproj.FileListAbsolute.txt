@@ -134,9 +134,6 @@
 /home/nemanja-tomic/Desktop/tattoonet/API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
 /home/nemanja-tomic/Desktop/tattoonet/API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /home/nemanja-tomic/Desktop/tattoonet/API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
-/home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.dll
-/home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/refint/API.dll
-/home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.pdb
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/appsettings.Development.json
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/appsettings.json
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/API
@@ -268,5 +265,15 @@
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/staticwebassets.pack.json
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/scopedcss/bundle/API.styles.css
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.csproj.CopyComplete
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/refint/API.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.pdb
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.genruntimeconfig.cache
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/ref/API.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/MySqlConnector.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cs
