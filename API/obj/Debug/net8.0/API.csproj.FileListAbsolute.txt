@@ -164,9 +164,15 @@
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.OpenApi.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Mono.TextTemplating.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/MySqlConnector.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/System.CodeDom.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/System.Composition.AttributedModel.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/System.Composition.Convention.dll
@@ -254,6 +260,7 @@
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.AssemblyInfo.cs
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cs
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cache
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.sourcelink.json
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/staticwebassets.build.json
@@ -270,10 +277,3 @@
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.pdb
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.genruntimeconfig.cache
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/ref/API.dll
-/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/MySqlConnector.dll
-/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
-/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.OpenApi.dll
-/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
-/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-/home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cs

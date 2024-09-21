@@ -13,9 +13,9 @@ public class ProductsController(IProductRepository repo) : ControllerBase
 {
     // Get Products from Db
     [HttpGet]
-    public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts()
+    public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts(string? brand, string? type, string? sort)
     {
-        return Ok(await repo.GetProductsAsync());
+        return Ok(await repo.GetProductsAsync(brand, type, sort));
     }
 
     // Get Products from Db with Id
@@ -27,6 +27,18 @@ public class ProductsController(IProductRepository repo) : ControllerBase
         if (product == null) return NotFound();
 
         return product;
+    }
+
+    [HttpGet("brands")]
+    public async Task<ActionResult<IReadOnlyList<string>>> GetBrands()
+    {
+        return Ok(await repo.GetBrandsAsync());
+    }
+
+    [HttpGet("types")]
+    public async Task<ActionResult<IReadOnlyList<string>>> GetTypes()
+    {
+        return Ok(await repo.GetTypesAsync());
     }
 
     // Create Product in Db

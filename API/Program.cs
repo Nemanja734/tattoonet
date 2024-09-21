@@ -40,4 +40,20 @@ if (app.Environment.IsDevelopment())
 
 app.MapControllers();
 
+// Episode 23 "Build a proof of concept e-commerce store"
+// Not sure how this works, but my guess only the last line is necessary since we don't work with Docker
+try
+{
+    using var scope = app.Services.CreateScope();
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<StoreContext>();
+    await context.Database.MigrateAsync();
+    await StoreContextSeed.SeedAsync(context);
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex);
+    throw;
+}
+
 app.Run();
