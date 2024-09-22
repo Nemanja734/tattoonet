@@ -1,6 +1,7 @@
 using System;
 using Core.Entities;
 using Core.Interfaces;
+using Core.Specifications;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,11 +12,15 @@ namespace API.Controllers;
 [Route("api/[controller]")]
 public class ProductsController(IGenericRepository<Product> repo) : ControllerBase
 {
-    // Get Products from Db
+    // Get Products from Db (with specification)
     [HttpGet]
     public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts(string? brand, string? type, string? sort)
     {
-        return Ok(await repo.ListAllAsync());
+        var spec = new ProductSpecification(brand, type, sort);
+
+        var products = await repo.ListAsync(spec);
+
+        return Ok(products);
     }
 
     // Get Products from Db with Id
@@ -29,18 +34,21 @@ public class ProductsController(IGenericRepository<Product> repo) : ControllerBa
         return product;
     }
 
-    // TODO: Implement method
-    // [HttpGet("brands")]
-    // public async Task<ActionResult<IReadOnlyList<string>>> GetBrands()
-    // {
-    //     return Ok(await repo.GetBrandsAsync());
-    // }
+    [HttpGet("brands")]
+    public async Task<ActionResult<IReadOnlyList<string>>> GetBrands()
+    {
+        var spec = new BrandListSpecification();
 
-    // [HttpGet("types")]
-    // public async Task<ActionResult<IReadOnlyList<string>>> GetTypes()
-    // {
-    //     return Ok(await repo.GetTypesAsync());
-    // }
+        return Ok(await repo.ListAsync(spec));
+    }
+
+    [HttpGet("types")]
+    public async Task<ActionResult<IReadOnlyList<string>>> GetTypes()
+    {
+        var spec = new TypeListSpecification();
+
+        return Ok(await repo.ListAsync(spec));
+    }
 
     // Create Product in Db
     [HttpPost]

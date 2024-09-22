@@ -22,7 +22,7 @@ builder.Services.AddDbContext<StoreContext>(options =>
 {
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
+// builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 // Everything after this line is middleware
