@@ -277,3 +277,5 @@
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.pdb
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.genruntimeconfig.cache
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/ref/API.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/StackExchange.Redis.dll

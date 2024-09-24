@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IIMPVyawB1yU9/FX732oM18ik/qsI2eN1r8VChD2oN1qS1CZ2XJtP5pWcWGXopLjgh+i4PNQPUgUQiAsS4xV+g==",
+  "dgSpecHash": "i3+9zeGROUCcnjYl95zpbMxpRt2V5H2gfwzMFrHcu3/tRqoNSqee0PSje/5+cK7gBW/lcNS6jFhtfrvB5MX9Lw==",
   "success": true,
   "projectFilePath": "/home/nemanjatomic/Desktop/workspace/tattoonet/API/API.csproj",
   "expectedPackageFiles": [
@@ -48,7 +48,9 @@
     "/home/nemanjatomic/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/mysqlconnector/2.3.5/mysqlconnector.2.3.5.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/pomelo.entityframeworkcore.mysql/8.0.2/pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/stackexchange.redis/2.8.16/stackexchange.redis.2.8.16.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/swashbuckle.aspnetcore/6.7.3/swashbuckle.aspnetcore.6.7.3.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/swashbuckle.aspnetcore.swagger/6.7.3/swashbuckle.aspnetcore.swagger.6.7.3.nupkg.sha512",
     "/home/nemanjatomic/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.7.3/swashbuckle.aspnetcore.swaggergen.6.7.3.nupkg.sha512",
