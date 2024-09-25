@@ -1,4 +1,5 @@
 using API.Middleware;
+using Core.Entities;
 using Core.Interfaces;
 using Infrastructure.Data;
 using Infrastructure.Services;
@@ -38,6 +39,11 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(config =>
 });
 builder.Services.AddSingleton<ICartService, CartService>();
 
+// Identity Services
+builder.Services.AddAuthorization();
+builder.Services.AddIdentityApiEndpoints<AppUser>()
+    .AddEntityFrameworkStores<StoreContext>();
+
 // Everything after this line is middleware
 var app = builder.Build();
 
@@ -47,6 +53,9 @@ app.UseMiddleware<ExceptionMiddleware>();
 app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200","https://localhost:4200"));
 
 app.MapControllers();
+
+// Identity Configuration
+app.MapIdentityApi<AppUser>();
 
 // Episode 23 "Build a proof of concept e-commerce store"
 // Not sure how this works, but my guess only the last line is necessary since we don't work with Docker

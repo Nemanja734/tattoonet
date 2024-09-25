@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "rg6cY69La3NFst1fnjGiB1SEa74d+pD1gT7sb3iZiUT8E1qNoQJgEhY5/HTbzcZOkFRpNT6kK3qxDJ9dLXGomg==",
+  "dgSpecHash": "bR/TuLkBWfT24aFSbcbDIEeh2uVRErQC5yf3A3A0AeLk3c3ff/FqAYBgvSOqBRK8IX7yLGTB53y/DUG37qgLkQ==",
   "success": true,
   "projectFilePath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Core/Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/nemanjatomic/.nuget/packages/microsoft.aspnetcore.cryptography.internal/8.0.8/microsoft.aspnetcore.cryptography.internal.8.0.8.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/8.0.8/microsoft.aspnetcore.cryptography.keyderivation.8.0.8.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/microsoft.extensions.identity.core/8.0.8/microsoft.extensions.identity.core.8.0.8.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/microsoft.extensions.identity.stores/8.0.8/microsoft.extensions.identity.stores.8.0.8.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "/home/nemanjatomic/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
