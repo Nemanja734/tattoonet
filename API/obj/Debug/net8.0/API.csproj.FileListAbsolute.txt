@@ -168,6 +168,8 @@
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Mono.TextTemplating.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/MySqlConnector.dll
+/home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/nemanjatomic/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
