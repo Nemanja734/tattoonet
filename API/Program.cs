@@ -3,6 +3,7 @@ using Core.Entities;
 using Core.Interfaces;
 using Infrastructure.Data;
 using Infrastructure.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
 
@@ -14,19 +15,16 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-// This one works with Docker, Docker doesn't work on Ubuntu 24.04
-// which is why it is commented out. I used MySql instead.
-// builder.Services.AddDbContext<StoreContext>(options =>
-// {
-//     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-// });
-// Create Db with MySql
+
 builder.Services.AddDbContext<StoreContext>(options =>
 {
-    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
 // builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
 builder.Services.AddCors();
 
 // Implementing redis
@@ -54,8 +52,8 @@ app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localho
 
 app.MapControllers();
 
-// Identity Configuration
-app.MapIdentityApi<AppUser>();
+// Identity Configuration with url /api/login/*
+app.MapGroup("api").MapIdentityApi<AppUser>();
 
 // Episode 23 "Build a proof of concept e-commerce store"
 // Not sure how this works, but my guess only the last line is necessary since we don't work with Docker
