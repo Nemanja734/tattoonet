@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/nemanjatomic/Desktop/workspace/tattoonet/API/API.csproj": {}
+    "/home/nemo/Desktop/workspace/tattoonet/API/API.csproj": {}
   },
   "projects": {
-    "/home/nemanjatomic/Desktop/workspace/tattoonet/API/API.csproj": {
+    "/home/nemo/Desktop/workspace/tattoonet/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nemanjatomic/Desktop/workspace/tattoonet/API/API.csproj",
+        "projectUniqueName": "/home/nemo/Desktop/workspace/tattoonet/API/API.csproj",
         "projectName": "API",
-        "projectPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/API/API.csproj",
-        "packagesPath": "/home/nemanjatomic/.nuget/packages/",
-        "outputPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/",
+        "projectPath": "/home/nemo/Desktop/workspace/tattoonet/API/API.csproj",
+        "packagesPath": "/home/nemo/.nuget/packages/",
+        "outputPath": "/home/nemo/Desktop/workspace/tattoonet/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/nemanjatomic/.nuget/NuGet/NuGet.Config"
+          "/home/nemo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/nemanjatomic/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj"
+              "/home/nemo/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/nemo/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -80,17 +80,17 @@
         }
       }
     },
-    "/home/nemanjatomic/Desktop/workspace/tattoonet/Core/Core.csproj": {
+    "/home/nemo/Desktop/workspace/tattoonet/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nemanjatomic/Desktop/workspace/tattoonet/Core/Core.csproj",
+        "projectUniqueName": "/home/nemo/Desktop/workspace/tattoonet/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Core/Core.csproj",
-        "packagesPath": "/home/nemanjatomic/.nuget/packages/",
-        "outputPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Core/obj/",
+        "projectPath": "/home/nemo/Desktop/workspace/tattoonet/Core/Core.csproj",
+        "packagesPath": "/home/nemo/.nuget/packages/",
+        "outputPath": "/home/nemo/Desktop/workspace/tattoonet/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/nemanjatomic/.nuget/NuGet/NuGet.Config"
+          "/home/nemo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -139,17 +139,17 @@
         }
       }
     },
-    "/home/nemanjatomic/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj": {
+    "/home/nemo/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nemanjatomic/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/nemo/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/home/nemanjatomic/.nuget/packages/",
-        "outputPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Infrastructure/obj/",
+        "projectPath": "/home/nemo/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/nemo/.nuget/packages/",
+        "outputPath": "/home/nemo/Desktop/workspace/tattoonet/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/nemanjatomic/.nuget/NuGet/NuGet.Config"
+          "/home/nemo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -161,8 +161,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/nemanjatomic/Desktop/workspace/tattoonet/Core/Core.csproj": {
-                "projectPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Core/Core.csproj"
+              "/home/nemo/Desktop/workspace/tattoonet/Core/Core.csproj": {
+                "projectPath": "/home/nemo/Desktop/workspace/tattoonet/Core/Core.csproj"
               }
             }
           }

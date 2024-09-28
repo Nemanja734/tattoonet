@@ -23,6 +23,17 @@ public static class ClaimsPrincipleExtensions
         return userToReturn;
     }
 
+    public static async Task<AppUser> GetUserByEmailWithAddress(this UserManager<AppUser> userManager, ClaimsPrincipal user)
+    {
+        var userToReturn = await userManager.Users
+            .Include(x => x.Address)
+            .FirstOrDefaultAsync(x => x.Email == user.GetEmail());
+
+        if (userToReturn == null) throw new AuthenticationException("Email claim not found");
+
+        return userToReturn;
+    }
+
     public static string GetEmail(this ClaimsPrincipal user)        // 'this' keyword extends to a class
     {
         // get email of current user and check if not null

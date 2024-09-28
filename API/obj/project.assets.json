@@ -4871,19 +4871,19 @@
     ]
   },
   "packageFolders": {
-    "/home/nemanjatomic/.nuget/packages/": {}
+    "/home/nemo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nemanjatomic/Desktop/workspace/tattoonet/API/API.csproj",
+      "projectUniqueName": "/home/nemo/Desktop/workspace/tattoonet/API/API.csproj",
       "projectName": "API",
-      "projectPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/API/API.csproj",
-      "packagesPath": "/home/nemanjatomic/.nuget/packages/",
-      "outputPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/API/obj/",
+      "projectPath": "/home/nemo/Desktop/workspace/tattoonet/API/API.csproj",
+      "packagesPath": "/home/nemo/.nuget/packages/",
+      "outputPath": "/home/nemo/Desktop/workspace/tattoonet/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/nemanjatomic/.nuget/NuGet/NuGet.Config"
+        "/home/nemo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4895,8 +4895,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/nemanjatomic/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/home/nemanjatomic/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj"
+            "/home/nemo/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/home/nemo/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj"
             }
           }
         }

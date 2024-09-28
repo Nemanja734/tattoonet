@@ -1,2 +1,0 @@
-1. Brands and Types are not sorted alphabetically (before API request)
-
