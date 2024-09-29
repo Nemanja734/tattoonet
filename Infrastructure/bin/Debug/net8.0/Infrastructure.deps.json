@@ -11,8 +11,8 @@
           "Core": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
-          "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
-          "StackExchange.Redis": "2.8.16"
+          "StackExchange.Redis": "2.8.16",
+          "Stripe.net": "45.14.0"
         },
         "runtime": {
           "Infrastructure.dll": {}
@@ -446,14 +446,11 @@
           }
         }
       },
-      "MySqlConnector/2.3.5": {
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
-        },
+      "Newtonsoft.Json/12.0.3": {
         "runtime": {
-          "lib/net8.0/MySqlConnector.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.3.5.0"
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
           }
         }
       },
@@ -468,18 +465,6 @@
           }
         }
       },
-      "Pomelo.EntityFrameworkCore.MySql/8.0.2": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.8",
-          "MySqlConnector": "2.3.5"
-        },
-        "runtime": {
-          "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.dll": {
-            "assemblyVersion": "8.0.2.0",
-            "fileVersion": "8.0.2.0"
-          }
-        }
-      },
       "StackExchange.Redis/2.8.16": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
@@ -489,6 +474,18 @@
           "lib/net6.0/StackExchange.Redis.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.8.16.12844"
+          }
+        }
+      },
+      "Stripe.net/45.14.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "assemblyVersion": "45.14.0.0",
+            "fileVersion": "45.14.0.0"
           }
         }
       },
@@ -949,12 +946,12 @@
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
     },
-    "MySqlConnector/2.3.5": {
+    "Newtonsoft.Json/12.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AmEfUPkFl+Ev6jJ8Dhns3CYHBfD12RHzGYWuLt6DfG6/af6YvOMyPz74ZPPjBYQGRJkumD2Z48Kqm8s5DJuhLA==",
-      "path": "mysqlconnector/2.3.5",
-      "hashPath": "mysqlconnector.2.3.5.nupkg.sha512"
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "Pipelines.Sockets.Unofficial/2.2.8": {
       "type": "package",
@@ -963,19 +960,19 @@
       "path": "pipelines.sockets.unofficial/2.2.8",
       "hashPath": "pipelines.sockets.unofficial.2.2.8.nupkg.sha512"
     },
-    "Pomelo.EntityFrameworkCore.MySql/8.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-XjnlcxVBLnEMbyEc5cZzgZeDyLvAniACZQ04W1slWN0f4rmfNzl98gEMvHnFH0fMDF06z9MmgGi/Sr7hJ+BVnw==",
-      "path": "pomelo.entityframeworkcore.mysql/8.0.2",
-      "hashPath": "pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512"
-    },
     "StackExchange.Redis/2.8.16": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-WaoulkOqOC9jHepca3JZKFTqndCWab5uYS7qCzmiQDlrTkFaDN7eLSlEfHycBxipRnQY9ppZM7QSsWAwUEGblw==",
       "path": "stackexchange.redis/2.8.16",
       "hashPath": "stackexchange.redis.2.8.16.nupkg.sha512"
+    },
+    "Stripe.net/45.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Z7RrvZV3v7eTOZgxThWn1RJ6bVtL/m7ncRcXcheF7w8/lFHsL+DAxgaEPktq+M/dChCfkvcghrUYOrkc0BVQg==",
+      "path": "stripe.net/45.14.0",
+      "hashPath": "stripe.net.45.14.0.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/6.0.1": {
       "type": "package",

@@ -19,14 +19,16 @@
 
             <dl class="flex items-center justify-between gap-4 border-t border-gray-200 pt-2">
                 <dt class="font-medium text-gray-500">Total</dt>
-                <dd class="font-medium text-gray-900">{{cartService.totals()?.total}}</dd>
+                <dd class="font-medium text-gray-900">{{cartService.totals()?.total | currency}}</dd>
             </dl>
         </div>
 
-        <div class="flex flex-col gap-2">
-            <button routerLink="/checkout" mat-flat-button>Checkout</button>
-            <button routerLink="/shop" mat-flat-button>Continue Shopping</button>
-        </div>
+        @if (location.path() !== '/checkout'){
+            <div class="flex flex-col gap-2">
+                <button routerLink="/checkout" mat-flat-button>Checkout</button>
+                <button routerLink="/shop" mat-flat-button>Continue Shopping</button>
+            </div>
+        }
 
     </div>
 

@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{48D24759-83A8-47FC-A0F0-AAFA3E2B67B0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_KnownBugs", "00_KnownBugs", "{95B55EED-ACEE-404D-B630-E7E77364EC76}"
+	ProjectSection(SolutionItems) = preProject
+		bugs.txt = bugs.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

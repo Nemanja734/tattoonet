@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./layout/header/header.component";
 import { ShopComponent } from "./features/shop/shop.component";
 import { ProductDetailsComponent } from './features/shop/product-details/product-details.component';
-import { TestErrorComponent } from './features/test-error/test-error.component';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',

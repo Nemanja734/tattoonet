@@ -8,6 +8,7 @@ import { errorInterceptor } from './core/interceptors/error.interceptor';
 import { loadingInterceptor } from './core/interceptors/loading.interceptor';
 import { InitService } from './core/services/init.service';
 import { lastValueFrom } from 'rxjs';
+import { authInterceptor } from './core/interceptors/auth.interceptor';
 
 // get the last value from cart, so that there are no two db in redis
 function initializeApp(initService : InitService) {
@@ -24,12 +25,16 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }), 
     provideRouter(routes), 
     provideAnimationsAsync(),
-    provideHttpClient(withInterceptors([errorInterceptor, loadingInterceptor])),   // pass array errorInterceptor
+    provideHttpClient(withInterceptors([
+      errorInterceptor,   // pass array errorInterceptor
+      loadingInterceptor,
+      authInterceptor
+    ])),
     {
       provide: APP_INITIALIZER,
       useFactory: initializeApp,
       multi: true,
       deps: [InitService],
-    }
+    }, provideAnimationsAsync()
   ]
 };

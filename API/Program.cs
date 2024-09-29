@@ -20,13 +20,13 @@ builder.Services.AddDbContext<StoreContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+// deprecated
 // builder.Services.AddScoped<IProductRepository, ProductRepository>();
-
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 builder.Services.AddCors();
 
-// Implementing redis
+// Implementing redis for cart db
 builder.Services.AddSingleton<IConnectionMultiplexer>(config =>
 {
     var connString = builder.Configuration.GetConnectionString("Redis")
@@ -41,6 +41,9 @@ builder.Services.AddAuthorization();
 builder.Services.AddIdentityApiEndpoints<AppUser>()
     .AddEntityFrameworkStores<StoreContext>();
 
+// Stripe Service
+builder.Services.AddScoped<IPaymentService, PaymentService>();
+
 // Everything after this line is middleware
 var app = builder.Build();
 
@@ -49,6 +52,9 @@ app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowCredentials()
     .WithOrigins("http://localhost:4200","https://localhost:4200"));
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllers();
 

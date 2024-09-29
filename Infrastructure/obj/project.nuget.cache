@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1HQG0gWNyFYAgyx91V7fMUNf/gjQTjvWsRi/tAeDhL+DX7bvCa0A9HbqldtDAccfUKx5KeYn0T4rXFoSr3A1YA==",
+  "dgSpecHash": "5UWTOI31gdU6xqAgG3VX6NLL0uXUnhtmlsHuyD2FIVp07eyJIXquWPOnxQsFV/3ZPAiZRF5AG7LkCqkts1TJ9A==",
   "success": true,
   "projectFilePath": "/home/nemo/Desktop/workspace/tattoonet/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -41,10 +41,10 @@
     "/home/nemo/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/nemo/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/home/nemo/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "/home/nemo/.nuget/packages/mysqlconnector/2.3.5/mysqlconnector.2.3.5.nupkg.sha512",
+    "/home/nemo/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/home/nemo/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
-    "/home/nemo/.nuget/packages/pomelo.entityframeworkcore.mysql/8.0.2/pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
     "/home/nemo/.nuget/packages/stackexchange.redis/2.8.16/stackexchange.redis.2.8.16.nupkg.sha512",
+    "/home/nemo/.nuget/packages/stripe.net/45.14.0/stripe.net.45.14.0.nupkg.sha512",
     "/home/nemo/.nuget/packages/system.configuration.configurationmanager/6.0.1/system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "/home/nemo/.nuget/packages/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "/home/nemo/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",

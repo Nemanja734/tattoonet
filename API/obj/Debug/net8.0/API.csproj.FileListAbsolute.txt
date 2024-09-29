@@ -325,9 +325,7 @@
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Mono.TextTemplating.dll
-/home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/MySqlConnector.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
-/home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/StackExchange.Redis.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -436,3 +434,5 @@
 /home/nemo/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.pdb
 /home/nemo/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.genruntimeconfig.cache
 /home/nemo/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/ref/API.dll
+/home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Newtonsoft.Json.dll
+/home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Stripe.net.dll
