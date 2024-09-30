@@ -42,10 +42,19 @@
                 </div>
             </mat-step>
             <mat-step label="Confirmation">
-                <app-checkout-review></app-checkout-review>
+                <app-checkout-review [confirmationToken]="confirmationToken"></app-checkout-review>
                 <div class="flex justify-between mt-6">
                     <button matStepperPrevious mat-stroked-button>Back</button>
-                    <button mat-flat-button>Order now</button>
+                    <button
+                        [disabled]="!confirmationToken || loading"
+                        (click)="confirmPayment(stepper)" 
+                        mat-flat-button>
+                        @if (loading) {
+                            <mat-spinner diameter="20"></mat-spinner>
+                        } @else {
+                            <span>Pay</span>
+                        }
+                    </button>
                 </div>
             </mat-step>
         </mat-stepper>
