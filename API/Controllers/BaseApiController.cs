@@ -22,6 +22,5 @@ public class BaseApiController : ControllerBase
         var pagination = new Pagination<T>(pageIndex, pageSize, count, items);
 
         return Ok(pagination);
-        
     }
 }
