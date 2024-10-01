@@ -9,8 +9,7 @@ namespace Infrastructure.Services;
 // IConfiguration for stripe key
 // ICartService to see whats in the cart (we won't trust the price of cart)
 // IGenericRepository to get the price of products and delivery method
-public class PaymentService(IConfiguration config, ICartService cartService, 
-    IGenericRepository<Core.Entities.Product> productRepo,IGenericRepository<DeliveryMethod> dmRepo) : IPaymentService
+public class PaymentService(IConfiguration config, ICartService cartService, IUnitOfWork unit) : IPaymentService
 {
     // validate cart, validate delivery information
     // and create payment intent so we can send it to stripe
@@ -27,7 +26,7 @@ public class PaymentService(IConfiguration config, ICartService cartService,
         // check if delivery method has value and add delivery price
         if (cart.DeliveryMethodId.HasValue)
         {
-            var DeliveryMethod = await dmRepo.GetByIdAsync((int)cart.DeliveryMethodId);     // cast from int? to int
+            var DeliveryMethod = await unit.Repository<DeliveryMethod>().GetByIdAsync((int)cart.DeliveryMethodId);     // cast from int? to int
 
             if (DeliveryMethod == null) return null;
 
@@ -37,7 +36,7 @@ public class PaymentService(IConfiguration config, ICartService cartService,
         // validate and update items in the cart
         foreach (var item in cart.Items)
         {
-            var productItem = await productRepo.GetByIdAsync(item.ProductId);
+            var productItem = await unit.Repository<Core.Entities.Product>().GetByIdAsync(item.ProductId);
 
             if (productItem == null) return null;
 

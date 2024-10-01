@@ -1,3 +1,6 @@
 Stripe
 Currently you can only define address.state when you select USA,
 with Germany there is no option state. Therefore the address cannot be updated.
+
+API
+expYear of payment card is 0
