@@ -321,15 +321,11 @@
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
-/home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.OpenApi.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Mono.TextTemplating.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/StackExchange.Redis.dll
-/home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
-/home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/System.CodeDom.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/System.Composition.AttributedModel.dll
 /home/nemo/Desktop/workspace/tattoonet/API/bin/Debug/net8.0/System.Composition.Convention.dll
@@ -417,7 +413,6 @@
 /home/nemo/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache
 /home/nemo/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.AssemblyInfo.cs
 /home/nemo/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache
-/home/nemo/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cs
 /home/nemo/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cache
 /home/nemo/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/API.sourcelink.json
 /home/nemo/Desktop/workspace/tattoonet/API/obj/Debug/net8.0/staticwebassets.build.json

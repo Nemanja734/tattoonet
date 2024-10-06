@@ -7,17 +7,16 @@ using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 // Add services to the container.
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<StoreContext>(options =>
+builder.Services.AddDbContext<StoreContext>(opt =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
 // deprecated
@@ -65,7 +64,6 @@ app.MapControllers();
 app.MapGroup("api").MapIdentityApi<AppUser>();
 
 // Episode 23 "Build a proof of concept e-commerce store"
-// Not sure how this works, but my guess only the last line is necessary since we don't work with Docker
 try
 {
     using var scope = app.Services.CreateScope();
